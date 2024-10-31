@@ -45,7 +45,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
 
-## Desiciones de diseño
+## Decisiones de diseño
 
 al ser una aplicación pequeña y rápida se decidió usar el router por paginas por default, las llamadas al api están dentro de las páginas, se decidió reutilizar el método submit de las tareas tanto para el post como el put y de igual manera se pusieron todos los estilos en el Home.module.css 
 
