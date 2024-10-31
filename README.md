@@ -47,6 +47,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 
 ## Decisiones de diseño
 
-al ser una aplicación pequeña y rápida se decidió usar el router por paginas por default, las llamadas al api están dentro de las páginas, se decidió reutilizar el método submit de las tareas tanto para el post como el put y de igual manera se pusieron todos los estilos en el Home.module.css 
+al ser una aplicación pequeña y rápida se decidió usar el router por paginas por default, las llamadas al api están dentro de las páginas, se decidió reutilizar el método submit de las tareas tanto para el post como el put y de igual manera se pusieron todos los estilos en el Home.module.css.
+Para asegurar que el usuario solo ve sus tareas se verifica en el home el usuario que esta logueado y solo se muestra las tareas de este, de no estar logueado se le informa que se debe autenticar.
 
 gracias por revisar esta prueba y espero poder trabajar con ustedes
